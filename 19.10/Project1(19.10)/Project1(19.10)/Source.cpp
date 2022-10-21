@@ -25,7 +25,7 @@ int main()
 	{
 		x_lst[i] = x + h * i;
 
-		y_lst[i] = log((1 + x) / (x));
+		y_lst[i] = log((1 + x) / (1 - x));
 
 
 
