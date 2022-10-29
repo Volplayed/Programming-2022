@@ -21,17 +21,19 @@ int dividers_sum(int num)
 
 }
 
-void friends(int n1, int n2)
+void friends(int n1)
 {
 	//init
 	int sum1;
 	int sum2;
-
+	int n2;
 
 	sum1 = dividers_sum(n1);
+	n2 = sum1;
+
 	sum2 = dividers_sum(n2);
 
-	if (sum1 == n2 && sum2 == n1)
+	if (sum2 == n1)
 	{
 		cout << "Pair (" << n1 << ", " << n2 << ") are 'friends'" << endl;
 	}
@@ -49,10 +51,9 @@ int main()
 
 	for (int i = 1; i < n; ++i)
 	{
-		for (int j = 1; j < n; ++j)
-		{
-			friends(i, j);
-		}
+		
+		friends(i);
+		
 	}
 
 	return 0;
