@@ -1,0 +1,16 @@
+(4,3) r=10
+(-12,-14) r=9
+(2,-3) r=9
+(6,5) r=7
+(1,-2) r=5
+(4,5) r=5
+(2,2) r=4
+(0,0) r=3
+(-9,-8) r=3
+(-1,1) r=1
+There are 6 intersections with (6,5) r=7
+These circle lengths are in first quarter:62.8
+43.96
+31.4
+25.12
+18.84
