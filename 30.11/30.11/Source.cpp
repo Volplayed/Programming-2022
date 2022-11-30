@@ -4,7 +4,7 @@
 #define _USE_MATH_DEFINES
 #include <cmath>
 #include <math.h>
-
+#include <fstream>
 
 
 using namespace std;
@@ -53,14 +53,13 @@ public:
 	}
 
 	friend istream& operator>>(istream& is, Line& line) {
-		cout << "Enter a, b, c" << endl;
 		is >> line.a >> line.b >> line.c;
 
 		return is;
 	}
 
 	friend ostream& operator<<(ostream& os, Line& line) {
-		os << "Line with parameters - " << line.a << ' ' << line.b << ' ' << line.c;
+		os << "Line - " << line.a << "x + " << line.b << "y = " << line.c;
 		return os;
 	}
 
@@ -132,9 +131,15 @@ int main() {
 	int c2 = 0;
 	int k = 1;
 
+	ifstream file;
+
+	file.open("data.txt");
+
 	for (int i = 0; i < n; i++) {
-		cin >> lines[i];
+		file >> lines[i];
 	}
+
+	file.close();
 
 	for (int i = 0; i < n; i++) {
 		cout << lines[i] << " has intersection with:" << endl;
@@ -142,15 +147,16 @@ int main() {
 			if (j != i) {
 				if (!lines[i].isParalel(lines[j])) {
 					Point p = lines[i].getIntersectionPoint(lines[j]);
-					cout << k << " - " << lines[j] << " in point " << p << " Angle=" << lines[i].getAngle(lines[j]) << endl;
+					cout << k << " - " << lines[j] << " in point " << p << " Angle=" << abs(lines[i].getAngle(lines[j])) << endl;
 					k++;
 					
 				}
-				double angle = lines[j].getAngle(ox);
+				double angle = abs(lines[j].getAngle(ox));
+			
 				if (angle == 0 || lines[j].isParalel(ox) == 1) {
 					c1++;
 				}
-				else if (tan(angle) == 0) {
+				else if (angle == M_PI_2) {
 					c2++;
 				}
 			}
@@ -160,6 +166,7 @@ int main() {
 		c2 = 0;
 		k = 1;
 	}
+
 
 
 	return 0;
