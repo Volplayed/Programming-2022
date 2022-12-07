@@ -7,7 +7,7 @@ Every other folder stands for homework.
 - [x] [Classwork 26.11.22](Classwork/Project26.11/)
 - [x] [Classwork 23.11.22](Classwork/Project23.11/)
 - [x] [Homework 23.11.22](23.11/Project23.11/)
-- [x] [Homework 16.11.22](09.11/) - це домашнє задане на 16.11 але я записав число в яке це завадння задали. Тут три завадння в файлі
+- [x] [Homework 16.11.22](09.11/)
 - [x] [Classwork 09.11.22](Classwork/09.11/)
 - [x] [Classwork 02.11.22](Classwork/02.11/)
 - [x] [Homework 26.10.22](26.10/)
