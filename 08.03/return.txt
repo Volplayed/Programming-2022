@@ -1,0 +1,17 @@
+2 RAG21 (Samsung) - 2000$| Radius: 2500 Answering machine: Yes
+2 RAG20 (Samsung) - 1650$| Radius: 1850 Answering machine: No
+2 Rad21 (Lenovo) - 425$| Radius: 1000 Answering machine: Yes
+2 Rad11 (Lenovo) - 400$| Radius: 750 Answering machine: Yes
+1 CLE1 Blue (Samsung) - 360$| Memory: 16
+1 Q6 White (Lenovo) - 355$| Memory: 16
+1 P113 Black (Samsung) - 255$| Memory: 12
+2 Rad1 (Lenovo) - 240$| Radius: 300 Answering machine: No
+1 A1 Green (Lenovo) - 200$| Memory: 8
+1 D2 Black (Lenovo) - 185$| Memory: 8
+1 PA12 White (Samsung) - 185$| Memory: 10
+1 C5 Black (Lenovo) - 140$| Memory: 12
+1 PAR1 Grey (Samsung) - 130$| Memory: 8
+Sum: 6525
+RAG21 (Samsung) - 2000$| Radius: 2500 Answering machine: Yes
+Rad21 (Lenovo) - 425$| Radius: 1000 Answering machine: Yes
+Rad11 (Lenovo) - 400$| Radius: 750 Answering machine: Yes

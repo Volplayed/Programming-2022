@@ -1,0 +1,7 @@
+1 A1 Lenovo 200 Green 8
+1 C5 Lenovo 140 Black 12
+2 Rad1 Lenovo 240 300 0
+2 Rad11 Lenovo 400 750 1
+1 Q6 Lenovo 355 White 16
+1 D2 Lenovo 185 Black 8
+2 Rad21 Lenovo 425 1000 1

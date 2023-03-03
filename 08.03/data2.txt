@@ -1,0 +1,6 @@
+1 PAR1 Samsung 130 Grey 8
+2 RAG21 Samsung 2000 2500 1
+2 RAG20 Samsung 1650 1850 0
+1 PA12 Samsung 185 White 10
+1 P113 Samsung 255 Black 12
+1 CLE1 Samsung 360 Blue 16

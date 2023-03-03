@@ -1,0 +1,15 @@
+Security 1 Device: Computer
+PE 2 Device: Mobile
+Proggramming 3 Size: 12; Hid in chair
+Math 4 Size: 7; Hid in hood
+Math 5 Device: Tablet
+English 10 Size: 5; Hid in toilet
+Math 11 Device: Mobile
+-------------------------------------
+English 10 Size: 5; Hid in toilet
+Math 4 Size: 7; Hid in hood
+Math 5 Device: Tablet
+Math 11 Device: Mobile
+PE 2 Device: Mobile
+Proggramming 3 Size: 12; Hid in chair
+Security 1 Device: Computer

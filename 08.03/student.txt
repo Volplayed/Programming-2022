@@ -1,0 +1,10 @@
+0 Volodymyr Fedyniak Stepanovych PMI-11
+1 English 10 5 toilet
+1 Proggramming 3 12 chair
+2 Math 11 Mobile
+0 Andriy Gavryluk Petrovych PMK-12
+2 Security 1 Computer
+2 PE 2 Mobile
+0 Maksym Maksymiuk Maksymovych PMP-11
+1 Math 4 7 hood
+2 Math 5 Tablet
