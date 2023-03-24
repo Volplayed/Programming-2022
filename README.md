@@ -3,6 +3,7 @@
 Classwork folder has every task done during classes.
 Every other folder stands for homework.
 
+- [x] [Homewokr 30.03.2023](30.03/)
 - [x] [Classwork 16.03.2023](Classwork/16.03/)
 - [x] [Classwork 09.03.23](Classwork/09.03)
 - [x] [Homework 08.03.23](08.03/)
