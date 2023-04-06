@@ -15,11 +15,11 @@ string jap(string name) {
 	return "お誕生日おめでとう " + name;
 }
 
-void happyBirthday(string (*lang)(string), string name) {
+void happyBirthday(string(*lang)(string), string name) {
 
 	ostringstream os;
 	os << lang(name);
-	
+
 	ofstream file("greeting.txt");
 
 	file << os.str();
