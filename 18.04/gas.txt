@@ -1,0 +1,6 @@
+Petra 700 9
+Carl 300 5
+Anna 100 3
+Kyle 500 2
+Bob 240 1
+Alice 269 1

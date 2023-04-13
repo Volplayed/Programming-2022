@@ -1,0 +1,12 @@
+1 John 100 2400 250
+2 Carl 300 5
+1 Mike 15 13 4
+1 Sam 1000 4575 460
+2 Kyle 500 2
+2 Bob 240 1
+1 Tom 140 200 123
+2 Anna 100 3
+1 Milly 17 200 14
+2 Petra 700 9
+2 Alice 269 1
+1 Pedro 2700 200 170
