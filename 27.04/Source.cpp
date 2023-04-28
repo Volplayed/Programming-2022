@@ -31,10 +31,9 @@ list<char> change(list<char> lst) {
 
 	//delete , before first .
 	while (true) {
-
+		it = find(lst.begin(), lst.end(), '.');
 		list<char>::iterator i = find(lst.begin(), it, ',');
-
-		if ((*i) == '.') {
+		if (i == it) {
 			break;
 		}
 		lst.erase(i);
